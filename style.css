@@ -6,28 +6,33 @@ body {
     flex-direction: column;
 }
 
-.sections {
-}
-
-.sectionOne, .sectionTwo {
+.sectionOne {
     background-color: #1F2937;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 36px;
 }
 
-.sectionOne {
+.sectionOneLeft{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.sectionTwo{
-    display: flex;
-    flex-direction: row;
-}
-
-.sectionTwoLeft{
-    display: flex;
+    flex: 1;
     flex-direction: column;
+    max-width: 500px;
+    align-items: start;
+    margin-left: 200px;
+}
+
+.sectionOneRight{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: end;
+    margin-right: 200px;
 }
 
 .logo{
@@ -35,6 +40,8 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 100px;
 }
 
 a {
@@ -42,9 +49,208 @@ a {
     text-decoration: none;
 }
 
+.topLinks{
+    margin-bottom: 100px;
+}
+
 ul {
     list-style-type: none;
     display: flex;
     gap: 16px;
     font-family: 'Roboto', sans-serif;
+}
+
+.awesome{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.subtext{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 450px;
+    margin-bottom: 16px;
+}
+
+.sectionOneButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex: 1;
+    text-align: center;
+}
+
+.oneButton{
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;   
+    width: 125px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+}
+
+.sectionOneRightImage{
+    background-color: gray;
+    width: 475px;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionTwo{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxTextContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerText{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    margin-bottom: 64px;
+}
+
+.boxSubtext{
+    font-family: 'Roboto', sans-serif;
+    width: 150px;
+    text-align: center;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: solid 4px blue;
+    border-radius: 8px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 8px;
+}
+
+.boxesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+
+.sectionThree{
+    height: 500px;
+    width: 100%;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    width: 825px;
+}
+
+.thor{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+.thorContainer{
+    margin-top: 8px;
+    display: flex;
+    justify-content: end;
+}
+
+.sectionFour{
+    height: 500px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionFourContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 1200px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.fourLeft{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.call{
+    font-weight: bold;
+    font-size: 24px;
+}
+.callSubtext{
+    font-size: 16px;
+}
+
+.fourRight{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.sectionFive{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 100px;
+    color: white;
+    background-color: #1F2937;
+}
+
+.fourButtonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 135px;
+    height: 35px;
+    border-radius: 6px;
+    border: solid white 2px;
+}
+
+.fourButton{
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    width: 125px;
+    height: auto;
+    border: none;
+    text-align: center;
 }
